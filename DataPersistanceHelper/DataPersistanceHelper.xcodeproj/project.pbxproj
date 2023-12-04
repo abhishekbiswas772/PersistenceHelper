@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		213E59DB2B1D9DD500C262F0 /* Data_Persistance_Helper.docc in Sources */ = {isa = PBXBuildFile; fileRef = 213E59DA2B1D9DD500C262F0 /* Data_Persistance_Helper.docc */; };
-		213E59DC2B1D9DD500C262F0 /* Data_Persistance_Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 213E59D92B1D9DD500C262F0 /* Data_Persistance_Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		213E59E32B1D9DE600C262F0 /* PersistanceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213E59E22B1D9DE600C262F0 /* PersistanceHelper.swift */; };
+		213E5A7D2B1DC39C00C262F0 /* DataPersistanceHelper.docc in Sources */ = {isa = PBXBuildFile; fileRef = 213E5A7C2B1DC39C00C262F0 /* DataPersistanceHelper.docc */; };
+		213E5A7E2B1DC39C00C262F0 /* DataPersistanceHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 213E5A7B2B1DC39C00C262F0 /* DataPersistanceHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		213E5A862B1DC3C200C262F0 /* PersistanceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213E5A852B1DC3C100C262F0 /* PersistanceHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		213E59D62B1D9DD500C262F0 /* Data_Persistance_Helper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data_Persistance_Helper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		213E59D92B1D9DD500C262F0 /* Data_Persistance_Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Data_Persistance_Helper.h; sourceTree = "<group>"; };
-		213E59DA2B1D9DD500C262F0 /* Data_Persistance_Helper.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Data_Persistance_Helper.docc; sourceTree = "<group>"; };
-		213E59E22B1D9DE600C262F0 /* PersistanceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistanceHelper.swift; sourceTree = "<group>"; };
+		213E5A782B1DC39C00C262F0 /* DataPersistanceHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataPersistanceHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		213E5A7B2B1DC39C00C262F0 /* DataPersistanceHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataPersistanceHelper.h; sourceTree = "<group>"; };
+		213E5A7C2B1DC39C00C262F0 /* DataPersistanceHelper.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DataPersistanceHelper.docc; sourceTree = "<group>"; };
+		213E5A852B1DC3C100C262F0 /* PersistanceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistanceHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		213E59D32B1D9DD500C262F0 /* Frameworks */ = {
+		213E5A752B1DC39C00C262F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -30,96 +30,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		213E59CC2B1D9DD500C262F0 = {
+		213E5A6E2B1DC39C00C262F0 = {
 			isa = PBXGroup;
 			children = (
-				213E59D82B1D9DD500C262F0 /* Data Persistance Helper */,
-				213E59D72B1D9DD500C262F0 /* Products */,
-				213E5A2C2B1DB7F400C262F0 /* Frameworks */,
+				213E5A7A2B1DC39C00C262F0 /* DataPersistanceHelper */,
+				213E5A792B1DC39C00C262F0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		213E59D72B1D9DD500C262F0 /* Products */ = {
+		213E5A792B1DC39C00C262F0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				213E59D62B1D9DD500C262F0 /* Data_Persistance_Helper.framework */,
+				213E5A782B1DC39C00C262F0 /* DataPersistanceHelper.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		213E59D82B1D9DD500C262F0 /* Data Persistance Helper */ = {
+		213E5A7A2B1DC39C00C262F0 /* DataPersistanceHelper */ = {
 			isa = PBXGroup;
 			children = (
-				213E59E42B1D9DEC00C262F0 /* DataHelper */,
-				213E59D92B1D9DD500C262F0 /* Data_Persistance_Helper.h */,
-				213E59DA2B1D9DD500C262F0 /* Data_Persistance_Helper.docc */,
+				213E5A842B1DC3A900C262F0 /* MainFiles */,
+				213E5A7B2B1DC39C00C262F0 /* DataPersistanceHelper.h */,
+				213E5A7C2B1DC39C00C262F0 /* DataPersistanceHelper.docc */,
 			);
-			path = "Data Persistance Helper";
+			path = DataPersistanceHelper;
 			sourceTree = "<group>";
 		};
-		213E59E42B1D9DEC00C262F0 /* DataHelper */ = {
+		213E5A842B1DC3A900C262F0 /* MainFiles */ = {
 			isa = PBXGroup;
 			children = (
-				213E59E22B1D9DE600C262F0 /* PersistanceHelper.swift */,
+				213E5A852B1DC3C100C262F0 /* PersistanceHelper.swift */,
 			);
-			path = DataHelper;
-			sourceTree = "<group>";
-		};
-		213E5A2C2B1DB7F400C262F0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
+			path = MainFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		213E59D12B1D9DD500C262F0 /* Headers */ = {
+		213E5A732B1DC39C00C262F0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				213E59DC2B1D9DD500C262F0 /* Data_Persistance_Helper.h in Headers */,
+				213E5A7E2B1DC39C00C262F0 /* DataPersistanceHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		213E59D52B1D9DD500C262F0 /* Data Persistance Helper */ = {
+		213E5A772B1DC39C00C262F0 /* DataPersistanceHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 213E59DF2B1D9DD500C262F0 /* Build configuration list for PBXNativeTarget "Data Persistance Helper" */;
+			buildConfigurationList = 213E5A812B1DC39C00C262F0 /* Build configuration list for PBXNativeTarget "DataPersistanceHelper" */;
 			buildPhases = (
-				213E59D12B1D9DD500C262F0 /* Headers */,
-				213E59D22B1D9DD500C262F0 /* Sources */,
-				213E59D32B1D9DD500C262F0 /* Frameworks */,
-				213E59D42B1D9DD500C262F0 /* Resources */,
+				213E5A732B1DC39C00C262F0 /* Headers */,
+				213E5A742B1DC39C00C262F0 /* Sources */,
+				213E5A752B1DC39C00C262F0 /* Frameworks */,
+				213E5A762B1DC39C00C262F0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Data Persistance Helper";
-			productName = "Data Persistance Helper";
-			productReference = 213E59D62B1D9DD500C262F0 /* Data_Persistance_Helper.framework */;
+			name = DataPersistanceHelper;
+			productName = DataPersistanceHelper;
+			productReference = 213E5A782B1DC39C00C262F0 /* DataPersistanceHelper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		213E59CD2B1D9DD500C262F0 /* Project object */ = {
+		213E5A6F2B1DC39C00C262F0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					213E59D52B1D9DD500C262F0 = {
+					213E5A772B1DC39C00C262F0 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 213E59D02B1D9DD500C262F0 /* Build configuration list for PBXProject "Data Persistance Helper" */;
+			buildConfigurationList = 213E5A722B1DC39C00C262F0 /* Build configuration list for PBXProject "DataPersistanceHelper" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,18 +118,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 213E59CC2B1D9DD500C262F0;
-			productRefGroup = 213E59D72B1D9DD500C262F0 /* Products */;
+			mainGroup = 213E5A6E2B1DC39C00C262F0;
+			productRefGroup = 213E5A792B1DC39C00C262F0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				213E59D52B1D9DD500C262F0 /* Data Persistance Helper */,
+				213E5A772B1DC39C00C262F0 /* DataPersistanceHelper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		213E59D42B1D9DD500C262F0 /* Resources */ = {
+		213E5A762B1DC39C00C262F0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -148,19 +139,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		213E59D22B1D9DD500C262F0 /* Sources */ = {
+		213E5A742B1DC39C00C262F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				213E59DB2B1D9DD500C262F0 /* Data_Persistance_Helper.docc in Sources */,
-				213E59E32B1D9DE600C262F0 /* PersistanceHelper.swift in Sources */,
+				213E5A7D2B1DC39C00C262F0 /* DataPersistanceHelper.docc in Sources */,
+				213E5A862B1DC3C200C262F0 /* PersistanceHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		213E59DD2B1D9DD500C262F0 /* Debug */ = {
+		213E5A7F2B1DC39C00C262F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +214,7 @@
 			};
 			name = Debug;
 		};
-		213E59DE2B1D9DD500C262F0 /* Release */ = {
+		213E5A802B1DC39C00C262F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +271,7 @@
 			};
 			name = Release;
 		};
-		213E59E02B1D9DD500C262F0 /* Debug */ = {
+		213E5A822B1DC39C00C262F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -302,7 +293,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cubastion.net.Data-Persistance-Helper";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cubastion.net.DataPersistanceHelper;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -311,7 +302,7 @@
 			};
 			name = Debug;
 		};
-		213E59E12B1D9DD500C262F0 /* Release */ = {
+		213E5A832B1DC39C00C262F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -333,7 +324,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cubastion.net.Data-Persistance-Helper";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cubastion.net.DataPersistanceHelper;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -345,25 +336,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		213E59D02B1D9DD500C262F0 /* Build configuration list for PBXProject "Data Persistance Helper" */ = {
+		213E5A722B1DC39C00C262F0 /* Build configuration list for PBXProject "DataPersistanceHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				213E59DD2B1D9DD500C262F0 /* Debug */,
-				213E59DE2B1D9DD500C262F0 /* Release */,
+				213E5A7F2B1DC39C00C262F0 /* Debug */,
+				213E5A802B1DC39C00C262F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		213E59DF2B1D9DD500C262F0 /* Build configuration list for PBXNativeTarget "Data Persistance Helper" */ = {
+		213E5A812B1DC39C00C262F0 /* Build configuration list for PBXNativeTarget "DataPersistanceHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				213E59E02B1D9DD500C262F0 /* Debug */,
-				213E59E12B1D9DD500C262F0 /* Release */,
+				213E5A822B1DC39C00C262F0 /* Debug */,
+				213E5A832B1DC39C00C262F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 213E59CD2B1D9DD500C262F0 /* Project object */;
+	rootObject = 213E5A6F2B1DC39C00C262F0 /* Project object */;
 }

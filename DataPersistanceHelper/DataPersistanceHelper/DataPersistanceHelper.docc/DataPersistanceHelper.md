@@ -1,4 +1,4 @@
-# ``Data_Persistance_Helper``
+# ``DataPersistanceHelper``
 
 <!--@START_MENU_TOKEN@-->Summary<!--@END_MENU_TOKEN@-->
 
