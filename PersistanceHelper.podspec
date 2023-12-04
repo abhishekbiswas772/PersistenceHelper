@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "Abhishek Biswas" => "abhishekbiswas772@gmail.com" }
   spec.platform     = :ios, "15.0"
   spec.source       = { :git => "https://github.com/abhishekbiswas772/PersistenceHelper.git", :tag => spec.version.to_s }
-  spec.source_files  = "Data Persistance Helper/**/*.{swift}"
+  spec.source_files  = "DataPersistanceHelper/**/*.{swift}"
   spec.framework    = "SQLite3"
   spec.requires_arc = true
   spec.swift_versions = "5.0"

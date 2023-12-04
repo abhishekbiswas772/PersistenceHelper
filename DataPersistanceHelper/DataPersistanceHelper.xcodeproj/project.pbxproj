@@ -49,19 +49,11 @@
 		213E5A7A2B1DC39C00C262F0 /* DataPersistanceHelper */ = {
 			isa = PBXGroup;
 			children = (
-				213E5A842B1DC3A900C262F0 /* MainFiles */,
+				213E5A852B1DC3C100C262F0 /* PersistanceHelper.swift */,
 				213E5A7B2B1DC39C00C262F0 /* DataPersistanceHelper.h */,
 				213E5A7C2B1DC39C00C262F0 /* DataPersistanceHelper.docc */,
 			);
 			path = DataPersistanceHelper;
-			sourceTree = "<group>";
-		};
-		213E5A842B1DC3A900C262F0 /* MainFiles */ = {
-			isa = PBXGroup;
-			children = (
-				213E5A852B1DC3C100C262F0 /* PersistanceHelper.swift */,
-			);
-			path = MainFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +277,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +309,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
