@@ -1,0 +1,16 @@
+PODS:
+  - PersistanceHelper (1.0.3)
+
+DEPENDENCIES:
+  - PersistanceHelper (from `../DataPersistanceHelper`)
+
+EXTERNAL SOURCES:
+  PersistanceHelper:
+    :path: "../DataPersistanceHelper"
+
+SPEC CHECKSUMS:
+  PersistanceHelper: 249ce9e681839a337023e34da5f1e04c1f78eedf
+
+PODFILE CHECKSUM: 94af6cf011c71bdbfb53bad761e12a81492c4af3
+
+COCOAPODS: 1.12.1
